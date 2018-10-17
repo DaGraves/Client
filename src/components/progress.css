@@ -1,0 +1,75 @@
+.rt-td {
+  text-align: center;
+}
+.rt-resizable-header-content, .-pagination {
+  line-height: 2;
+}
+
+.rt-thead {
+  border-bottom: solid 0.5px grey;
+}
+
+.rt-tbody {
+  font-weight: 100;
+}
+
+.ReactTable .rt-th, .ReactTable .rt-td {
+  padding: 15px;
+}
+
+#progress-table {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.back-btn {
+  border: 1px solid #181818;
+  color: #fff;
+  font-size: 12px;;
+  background: #181818;
+  cursor: pointer;
+  padding: 7px 25px;
+  margin: 15px 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.back-btn:hover,
+.back-btn:active {
+  color: #181818;
+  background-color: #fff;
+}
+
+.resetBtn {
+  border: 1px solid #DA3749;
+  color: #DA3749;
+  font-size: 12px;
+  background-color: fff;
+  cursor: pointer;
+  padding: 7px 25px;
+  display: inline-block;
+  margin: 30px 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.resetBtn:hover,
+.resetBtn:active {
+  color: #fff;
+  background-color: #DA3749;
+}
+
+div .progress-btns {
+  padding-right:0;
+  margin-right:0;
+}

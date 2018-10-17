@@ -1,0 +1,23 @@
+.language {
+  border-bottom: solid;
+  border-width: 1px;
+  border-bottom-color: #181818;
+  margin-bottom: 30px;
+  padding: 10px;
+  padding-bottom: 5px; 
+  font-weight: 700;
+}
+
+.translit {
+  color: grey;
+  font-weight: 100;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.original-word{
+  font-weight: 300;
+  font-size: 40px;
+  margin-top:0;
+  margin-bottom:10px;
+}

@@ -1,0 +1,92 @@
+.heading {
+  text-align: center;
+  background-color: #DFE0E2;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  margin-bottom: 30px;
+}
+
+.title{
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+.subtitle {
+  font-size: 30px;
+  font-weight: 100;
+  margin-top: 0;
+}
+
+.heading button {
+  border: 3px solid #181818;
+  color: #181818;
+  font-size: 18px;;
+  background: none;
+  cursor: pointer;
+  padding: 25px 80px;
+  display: inline-block;
+  margin: 15px 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.heading button:hover,
+.heading button:active {
+  color: #fff;
+  background: #181818;
+}
+
+.about-section main {
+  margin-bottom: 30px;
+}
+
+.about-section p{
+  line-height: 1.8;
+  font-weight: 100;
+}
+
+.reg-form input {
+  padding: 5px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  /* width: 100%; */
+  font-weight: 100;
+}
+
+.reg-form label {
+  font-size: 14px;
+}
+
+.reg-form .registrationForm {
+  border: 2px solid #DFE0E2;
+  padding: 15px;
+}
+
+.reg-form .register-form {
+  margin-bottom: 0px;
+}
+
+.reg-form .register-btn {
+  margin-top:13px;
+  margin-bottom:7px;
+}
+
+.reg-form .login-para {
+  font-size: 14px;
+}
+
+@media screen and (max-width: 400px) {
+  .title {
+  font-size: 30px;
+}
+.subtitle {
+  font-size: 26px;
+  font-weight: 100;
+}
+}
