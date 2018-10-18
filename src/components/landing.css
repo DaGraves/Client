@@ -1,4 +1,27 @@
-.heading {
+* {
+  box-sizing: border-box;
+}
+
+.landing-image{
+  height: 100vh;
+  width: 50%;
+  float: left;
+}
+
+.landing-image .img{
+  background: url(../images/main4.jpg) no-repeat;
+  object-fit: cover; 
+  max-width:100%;
+max-height:100%;
+  height: 100vh;
+}
+
+.about-section{
+  width: 50%;
+  float: right;
+}
+
+/* .heading {
   text-align: center;
   background-color: #DFE0E2;
   padding-top: 30px;
@@ -56,7 +79,7 @@
   margin-bottom: 5px;
   font-size: 14px;
   /* width: 100%; */
-  font-weight: 100;
+  /* font-weight: 100;
 }
 
 .reg-form label {
@@ -89,4 +112,4 @@
   font-size: 26px;
   font-weight: 100;
 }
-}
+} */ 

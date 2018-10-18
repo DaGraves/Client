@@ -83,7 +83,7 @@ export class Practice extends React.Component {
             </div>
           </div>
           <div className='col-6'>
-            <Word word={{ word: this.props.word, translit: this.props.translit }} />
+            <Word word={{ word: this.props.word}} />
           </div>
           <div className='col-6'>
             <WordForm handleSubmit={(answer) => this.handleSubmitBtn(answer)} submitBtn={this.state.showSubmitBtn} nextBtn={this.state.showNextBtn} handleNext={()=>this.handleNextBtn()}/>

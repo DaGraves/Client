@@ -62,7 +62,7 @@ export class Navbar extends React.Component {
     let navbar = (
     
     <nav className='row'>
-      <Link className='col-6 left' to='/'><strong>Privet!</strong></Link>
+      <Link className='col-6 left' to='/'>Aprender</Link>
       <ul className='nav-ul col-6 right'>
         <li>
           <Link to='' >About</Link>
@@ -87,7 +87,7 @@ export class Navbar extends React.Component {
       navbar = 
         <nav className='row small center'>
         <button onClick={() => this.handleMenu()} className='menuToggle'><Icon icon={ic_close} size={25} /></button>
-          <Link className='col-6 center logo' to='/'><strong>Privet!</strong></Link>
+          <Link className='col-6 center logo' to='/'><strong>Aprender!</strong></Link>
           <ul className='nav-ul col-6 center'>
             <li>
               <Link to='' >About</Link>
