@@ -75,7 +75,7 @@ export class Practice extends React.Component {
             {greeting}
           </div>
           <div className='col-12'>
-            <h1 className='center'>Type in the English equivalent and submit</h1>
+            <h1 className='center'>Type in the English translation</h1>
           </div>
           <div className='feedback-message col-12'>
             <div className='center'>

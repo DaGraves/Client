@@ -40,7 +40,7 @@ export class Progress extends React.Component{
         Header: 'WORDS',
         columns: [
       {
-        Header: 'Russian',
+        Header: 'Portuguese',
         accessor: 'russian'
       }, 
       {
@@ -80,7 +80,7 @@ export class Progress extends React.Component{
     return (
       <div className='row'>
       <header className='center col-12'>
-        <h1 id='progress-table'>Progress Table</h1>
+        <h1 id='progress-table'>Score Sheet</h1>
       </header>
         <main className=' -striped -highlight col-12'>
           <ReactTable

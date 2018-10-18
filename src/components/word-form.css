@@ -7,11 +7,10 @@
 }
 
 .answer-submit-btn {
-  border: 1px solid #181818;
   color: #fff;
   font-size: 12px;
   float: right;
-  background-color: #181818;
+  background-color: #71FFDD;
   cursor: pointer;
   padding: 7px 25px;
   margin: 15px 0px;
@@ -33,10 +32,10 @@
 
 .next-btn {
   float: right;
-  border: 1px solid #181818;
+  border: 1px solid #71FFDD;
   color: #fff;
   font-size: 12px;;
-  background: #181818;
+  background: #71FFDD;
   cursor: pointer;
   padding: 7px 25px;
   margin: 15px 0;
