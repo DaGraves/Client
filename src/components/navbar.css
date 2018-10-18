@@ -1,6 +1,7 @@
 
 .nav-bar {
-  
+  position: fixed;
+  top: 0;
   width: 100%;
   margin-bottom: 0;
   padding-top: 20px;
