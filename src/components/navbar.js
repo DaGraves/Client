@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import {clearAuth} from '../actions/auth';
 import {clearAuthToken} from '../local-storage';
 import Icon from 'react-icons-kit';
@@ -38,22 +38,22 @@ export class Navbar extends React.Component {
   }
   render(){
 
-    let logInOut = (<Link to="/login">Login/Signup</Link>);
+    let logInOut = (<NavLink to="/login">Login/Signup</NavLink>);
 
     let navLinks = '';
 
     if (this.props.loggedIn) {
       logInOut = (
-        <Link to="/logout" onClick={() => this.logOut()}>Log out</Link>
+        <NavLink to="/logout" onClick={() => this.logOut()}>Log out</NavLink>
       );
 
       navLinks = (
         <React.Fragment>
           <li>
-            <Link to='/progress' >Progress</Link>
+            <NavLink to='/progress' activeClassName='is-active'>Progress</NavLink>
           </li>
           <li>
-            <Link to='/practice' >Practice</Link>
+            <NavLink to='/practice' >Practice</NavLink>
           </li>
         </React.Fragment>
       );
@@ -62,10 +62,10 @@ export class Navbar extends React.Component {
     let navbar = (
     
     <nav className='row'>
-      <Link className='col-6 left' to='/'>Aprender</Link>
+      <NavLink className='col-6 left' to='/'>Aprender</NavLink>
       <ul className='nav-ul col-6 right'>
         <li>
-          <Link to='' >About</Link>
+          <NavLink to='' >About</NavLink>
         </li>
           {navLinks}
         <li>
@@ -87,10 +87,10 @@ export class Navbar extends React.Component {
       navbar = 
         <nav className='row small center'>
         <button onClick={() => this.handleMenu()} className='menuToggle'><Icon icon={ic_close} size={25} /></button>
-          <Link className='col-6 center logo' to='/'><strong>Aprender!</strong></Link>
+          <NavLink className='col-6 center logo' to='/'><strong>Aprender!</strong></NavLink>
           <ul className='nav-ul col-6 center'>
             <li>
-              <Link to='' >About</Link>
+              <NavLink to='' >About</NavLink>
             </li>
             {navLinks}
             <li>

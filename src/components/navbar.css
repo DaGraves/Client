@@ -25,16 +25,24 @@
     text-decoration: none;
     color: black;
     font-weight: 300;
+    
+}
+
+.nav-bar a:active{
+ 
+  border-bottom-color: #71ffdd;
 }
 
 .left{
   font-size: 25px;
+  font-family: 'K2D', sans-serif;
 }
   .nav-ul {
     display: inline-block;
     list-style: none;
     padding: 0;
     margin-top: 0;
+    font-family: 'Raleway', sans-serif;
   }
 
   li {

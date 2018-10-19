@@ -2,6 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { Link, Redirect } from 'react-router-dom';
 import LoginForm from './login-form';
+import Navbar from './navbar';
 import './login-page.css';
 
 export function LoginPage(props) {
@@ -11,6 +12,7 @@ export function LoginPage(props) {
   }
   return (
     <main role='main' className='login-page'>
+  
       <section className='row home'>
         <div className="col-12">
           <h1 className='login-page-heading'>Login</h1>

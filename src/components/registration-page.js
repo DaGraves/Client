@@ -3,6 +3,8 @@ import {connect} from 'react-redux';
 import {Redirect} from 'react-router-dom';
 
 import RegistrationForm from './registration-form';
+import { Navbar } from './navbar';
+import './registration-page.css';
 
 export function RegistrationPage(props) {
   // If we are logged in redirect to practice page

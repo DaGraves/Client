@@ -1,6 +1,6 @@
 import React from 'react';
 import {connect} from 'react-redux';
-
+import Navbar from './navbar';
 import LinkButton from './LinkButton';
 import RegistrationForm from './registration-form';
 import About from './about';
@@ -13,6 +13,7 @@ export function LandingPage(props) {
 
   
   return (
+   
     <main className='home'>
     <section className='landing-image'>
       <div className='img'>

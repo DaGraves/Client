@@ -1,6 +1,5 @@
 import React from 'react';
 import { connect } from 'react-redux';
-
 import LinkButton from './LinkButton';
 import Word from './word';
 import WordForm from './word-form';
@@ -8,6 +7,7 @@ import Feedback from './feedback';
 import requiresLogin from './requires-login';
 import './practice-page.css';
 import { fetchWord, sendAnswer } from '../actions/words';
+import { Navbar } from './navbar';
 
 export class Practice extends React.Component {
   constructor(props) {
@@ -70,6 +70,7 @@ export class Practice extends React.Component {
 
     return (
       <main>
+        <section className='practice-page'>
         <div className='row'>
           <div className='col-12 center user-greeting'>
             {greeting}
@@ -94,6 +95,7 @@ export class Practice extends React.Component {
             </div>
           </div>
         </div>
+        </section>
       </main>
     );
   }

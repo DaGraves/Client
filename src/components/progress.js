@@ -8,6 +8,7 @@ import 'react-table/react-table.css';
 import './progress.css';
 import { fetchProgress } from '../actions/users';
 import { reset } from '../actions/users';
+import { Navbar } from './navbar';
 
 export class Progress extends React.Component{
   componentDidMount(){
@@ -42,10 +43,6 @@ export class Progress extends React.Component{
       {
         Header: 'Portuguese',
         accessor: 'russian'
-      }, 
-      {
-        Header: 'English',
-        accessor: 'english'
       }
         ]
       },
@@ -78,6 +75,8 @@ export class Progress extends React.Component{
       ]
 
     return (
+      <main>
+      <section className='progress-page'>
       <div className='row'>
       <header className='center col-12'>
         <h1 id='progress-table'>Score Sheet</h1>
@@ -95,11 +94,14 @@ export class Progress extends React.Component{
           </div>
       </main>
       </div>
+      </section>
+      </main>
     );
   }
 }
 
 const mapStateToProps = state => {
+  loggedIn: state.auth.currentUser !== null;
   const progress = state.user.progress;
   return {
     progress

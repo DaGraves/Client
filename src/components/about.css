@@ -1,0 +1,25 @@
+
+
+.about-body{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.about-heading{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.button{
+    background-color: #71ffdd; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+}
