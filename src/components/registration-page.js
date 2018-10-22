@@ -7,7 +7,6 @@ import { Navbar } from './navbar';
 import './registration-page.css';
 
 export function RegistrationPage(props) {
-  // If we are logged in redirect to practice page
   if (props.loggedIn) {
     return <Redirect to="/practice" />;
   }
@@ -18,7 +17,6 @@ export function RegistrationPage(props) {
           <h1 className='register-page-heading'>Register</h1>
         </div>
         <div className="col-4">
-        {/* pass history prop to registration form. added this to match requirement in the user stories */}
           <RegistrationForm history={props.history}/>
         </div>
       </section>

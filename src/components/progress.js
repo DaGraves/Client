@@ -26,8 +26,7 @@ export class Progress extends React.Component{
 
     const data = this.props.progress.map(val => {
       return {
-        russian: val.russian,
-        english: val.english,
+        portuguese: val.portuguese,
         score: val.score,
         attempts: val.attempts,
         sessionScore: val.sessionScore,
@@ -42,7 +41,7 @@ export class Progress extends React.Component{
         columns: [
       {
         Header: 'Portuguese',
-        accessor: 'russian'
+        accessor: 'portuguese'
       }
         ]
       },
